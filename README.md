@@ -20,15 +20,23 @@ Overall, this project aims to provide insights into the relationship between roo
 **Replace the main folder adsi_24622969 to adsi while running the zip folder**
 
 ->Install packages with pipenv
+
 pipenv install pandas==2.0.1
+
 pipenv install jupyterlab==3.6.3
+
 pipenv install scikit-learn==1.2.2
+
 pipenv install yellowbrick==1.5
+
 pipenv install seaborn
+
 pipenv install xgboost
+
 pipenv install lightgbm
 
--> pipenv run pip freeze >> requirements.txt
+-> pipenv run pip freeze >> 
+requirements.txt
 
 **SET PYTHONPATH**
 
